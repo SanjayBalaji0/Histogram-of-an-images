@@ -25,11 +25,12 @@ The Histogram of gray scale image and color image is shown.
 
 
 ## Program:
-```python
+```
 # Developed By: Sanjay Balaji S
 # Register Number: 212223240149
 ```
-```
+
+```python
 import cv2
 import matplotlib.pyplot as plt
 gray_image = cv2.imread("C:/Users/admin/SanjayBalaji/DIPT/Eaglegray.jpg")
@@ -40,7 +41,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-```
+```python
 import numpy as np
 import cv2
 Gray_image = cv2.imread("C:/Users/admin/SanjayBalaji/DIPT/Eaglegray.jpg")
@@ -57,7 +58,8 @@ plt.ylabel("Pixel Count")
 plt.stem(gray_hist)
 plt.show()
 ```
-```
+
+```python
 plt.imshow(Color_image)
 plt.show()
 plt.title("Histogram of Color Image - Green Channel")
@@ -67,7 +69,8 @@ plt.stem(color_hist)
 plt.show()
 cv2.waitKey(0)
 ```
-```
+
+```python
 import cv2
 gray_image = cv2.imread("C:/Users/admin/SanjayBalaji/DIPT/Eaglegray.jpg",0)
 cv2.imshow('Grey Scale Image',gray_image)
